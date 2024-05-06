@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Raleway&display=swap');
+
+
+
+.cards{
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  background-color: white;
+  width: 20rem;
+  height: 25rem;
+  margin: 5rem auto;
+  color: black;
+  border-radius: 1rem;
+  box-shadow: 0 0 5rem rgba(0,0,0,0.3);
+  
+}
+
+.image1{
+  background-image: url("../files/photoCard1.jpg");
+  border-radius: 1rem 1rem 0 0;
+  height: 12rem;
+  
+  background-color: #000;
+  background-size: 120%;
+  background-position: center;
+}
+.image2{
+  background-image: url("../files/photoCard2.jpg");
+  border-radius: 1rem 1rem 0 0;
+  height: 12rem;
+  
+  background-color: #000;
+  background-size: 120%;
+  background-position: center;
+}
+.image3{
+  background-image: url("../files/photoCard3.jpg");
+  border-radius: 1rem 1rem 0 0;
+  height: 12rem;
+  
+  background-color: #000;
+  background-size: 120%;
+  background-position: center;
+}
+.image4{
+  background-image: url("../files/photoCard4.jpg");
+  border-radius: 1rem 1rem 0 0;
+  height: 12rem;
+  
+  background-color: #000;
+  background-size: 120%;
+  background-position: center;
+}
+
+
+.content {
+  padding: 0 2rem;
+}
+
+h1{
+  font-family: 'Libre Baskerville';
+}
+
+p{
+  font-family: 'Raleway';
+}
